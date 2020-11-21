@@ -1,0 +1,374 @@
+.App {
+    text-align: center;
+}
+
+.center, .center-column, .center-row, .top, .right, .bottom, .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-column {
+    flex-direction: column;
+}
+
+.top    { align-items:     flex-start; }
+.right  { justify-content: flex-end;   }
+.bottom { align-items:     flex-end;   }
+.left   { justify-content: flex-start; }
+
+.single-spaced, .single-spaced * {
+    line-height: 1;
+}
+
+.NavBar{
+    height: 100%;
+    width: 100%;
+}
+
+.Footer{
+    height: 100%;
+    width: 100%;
+}
+
+.resume-container{
+    height: 87vh;
+    width: 100%;
+    margin: auto;
+
+}
+
+.Contact{
+    overflow: auto;
+}
+
+.nav-menu{
+    margin-right: 1.5rem;
+}
+
+.nav-box{
+    background-color: #403e3e;
+    width: 7rem;
+    padding: 0.3rem;
+    margin: 0.1rem;
+    border-radius: 3%;
+}
+
+.nav-box:hover{
+    box-shadow:  0 0 1px 2px #803838;
+}
+
+.dropdown-content{
+    padding: 0.5rem;
+}
+
+.navbar-columns{
+    padding: 1rem;
+}
+
+.intro-skip{
+    padding: 2rem;
+}
+
+.hero-image {
+    background: url("../images/sunsetbackground.jpg")}
+
+.padding-2{
+    padding: 2rem
+}
+
+.res-padding-2{
+    padding: 2rem
+}
+
+.padding-1{
+    padding: 1rem
+}
+
+.res-padding-1{
+    padding: 1rem
+}
+
+.logo-image{
+   height: 1.5rem;
+}
+
+.plogo-image{
+    min-height: 2rem;
+    max-height: 3rem;
+}
+
+.personal-image{
+    min-height: 5rem;
+    min-width: 3rem;
+    max-height: 7rem;
+    max-width: 10rem;
+}
+
+.JRlogo-image{
+    height: 2.5rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+}
+
+.dropdown-width{
+    min-width: 3rem;
+}
+
+.is-fullh{
+    min-height: 100vh;
+}
+
+.is-fullishh{
+    min-height: 80vh;
+}
+
+.hide-overflow{
+    overflow: hidden;
+}
+
+.stretch-items{
+    align-items: stretch;
+}
+
+.fa {
+    color: #c65353;
+}
+
+.drop-button{
+    text-shadow: 2px 2px 4px #961919;
+}
+
+.fa-lock {
+    color: #b8a694;
+}
+
+.contact-container{
+    border: 1px solid #633636;
+    border-radius:5px;
+    padding: 1rem;
+    min-width: 84rem;
+    max-width: 95%;
+    box-shadow:  5px 5px 30px 2px rgba(52, 9, 1, 0.35);
+    background-color: #1d1f23;
+    overflow: auto;
+    margin:auto;
+    flex-grow: 0;
+}
+
+.contacttext-container{
+    min-width: 18rem;
+}
+
+.abouttext-container{
+    max-width: 90%;
+    z-index: 0;
+}
+
+.more-title{
+    margin-top: 1rem;
+}
+
+.avatar-image {
+    max-height: 16rem;
+    max-width: 16rem;
+}
+
+.more-image{
+    min-width: 10rem;
+    max-width: 20rem;
+    border-radius: 3%;
+    border: 4px solid #c65353;
+    box-shadow: 2px 2px 20px 3px rgba(31, 12, 8, 0.71);
+    margin-top: 1rem;
+}
+
+.avatar-border{
+    border: 5px solid rgba(8, 2, 21, 0.4);
+    border-radius: 45%;
+    box-shadow: 2px 2px 20px 3px rgba(31, 12, 8, 0.71);
+}
+
+.contact-item{
+   margin-bottom: 1rem;
+}
+
+.qmodal-content{
+    width: 60%;
+    height: 50%;
+    background-color: #1d1f23;
+}
+
+.pmodal-content{
+    width: 98%;
+    height: 100%;
+    background-color: #1d1f23;
+}
+
+.permodal-content{
+    width: 90%;
+    height: 85%;
+    background-color: #1d1f23;
+    margin: auto;
+}
+
+.validation-box{
+    margin: auto;
+}
+
+.submit-button{
+    background-color: #2f7841;
+    color: #cbaa8a;
+    font-size: 18px;
+    padding: 1rem 1rem;
+    border-radius: 12px;
+    width: 100%;
+    opacity: 0.75;
+    border: none;
+    text-decoration: none;
+    -webkit-text-fill-color: #cbaa8a;
+}
+
+.submit-button:hover {
+    box-shadow: 5px 5px 20px 2px rgba(24, 14, 14, 0.52);
+    opacity: 1;
+}
+
+.request-button{
+    background-color: #5f2d30;
+    color: #cbaa8a;
+    font-size: 18px;
+    padding: 1rem 1rem;
+    border-radius: 12px;
+    opacity: 0.75;
+    width: 100%;
+}
+
+.request-button:hover {
+    box-shadow: 5px 5px 20px 2px rgba(24, 14, 14, 0.52);
+    opacity: 1;
+}
+
+.key-container{
+   width: 60%;
+}
+
+.request-container{
+    width: 50%;
+}
+
+.footer-spacing{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+hr.dashed {
+    border-top: 3px dashed #bbb;
+}
+
+@media only screen and (min-width: 769px) {
+    /* For desktop: */
+    .right-desktop  { justify-content: flex-end;   }
+    .left-desktop   { justify-content: flex-start; }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .drop-menu{
+        display: none;
+    }
+
+    .mobile-only{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+
+    .navbar-columns{
+        padding: 1rem;
+    }
+
+    .center-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .is-fullishh{
+        min-height: 67vh;
+    }
+
+    .res-padding-1{
+        padding: 0.5rem
+    }
+
+    .res-padding-2{
+        padding: 1rem
+    }
+
+    .mobile-center-column{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .qmodal-content{
+        width: 90%;
+        height: 50%;
+    }
+
+    .contact-container{
+        min-width: 10rem;
+        max-height: 95%;
+    }
+
+    .avatar-image {
+        max-height: 10rem;
+        max-width: 10rem;
+    }
+
+    .JRlogo-image{
+        height: 1.8rem;
+    }
+
+    .tile.is-child{
+        min-height: 17rem;
+        min-width: 15rem;
+    }
+
+    .key-container{
+        width: 95%;
+    }
+
+    .request-container{
+        width: 95%;
+    }
+
+    .contact-column1{
+        padding: 0.1rem;
+    }
+
+    .contact-column2{
+        padding: 0.1rem;
+    }
+
+    .footer-spacing{
+        margin-right: 0.4rem;
+        margin-left: 0.4rem;
+    }
+
+    .submit-button{
+        padding: 0.5rem 0.5rem;
+    }
+
+    .request-button{
+        padding: 0.5rem 0.5rem;
+    }
+}

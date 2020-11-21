@@ -1,0 +1,312 @@
+
+@font-face {
+    font-family: Bungee-Regular;
+    src: url('../fonts/Bungee-Regular.ttf');
+}
+
+@font-face {
+    font-family: Bungee-Shade-Regular;
+    src: url('../fonts/BungeeShade-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Lalezar-Regular;
+    src: url('../fonts/Lalezar-Regular.ttf');
+}
+
+@font-face {
+    font-family: VT323-Regular;
+    src: url('../fonts/VT323-Regular.ttf');
+}
+
+@font-face {
+    font-family: NunitoSans-Light-Italic;
+    src: url('../fonts/NunitoSans-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url('../fonts/Rubik-Medium.ttf');
+}
+
+@font-face {
+    font-family: IBMPlexSans-Regular;
+    src: url('../fonts/IBMPlexSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url('../fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Thin;
+    src: url('../fonts/Poppins-Thin.ttf');
+}
+
+@font-face {
+    font-family: AmaticSC-Regular;
+    src: url('../fonts/AmaticSC-Regular.ttf');
+}
+
+@font-face {
+    font-family: BalooDa2-Regular;
+    src: url('../fonts/BalooDa2-Regular.ttf');
+}
+
+@font-face {
+    font-family: BenchNine-Light;
+    src: url('../fonts/BenchNine-Light.ttf');
+}
+
+
+.logo-text{
+    font-size: 24px;
+    font-family: 'Rubik-Medium', sans-serif;
+    color: #b8a694;
+}
+
+.project-title-text{
+    font-size: 28px;
+    font-family: 'Rubik-Medium', sans-serif;
+    color: #c65353;
+    font-weight: bold;
+}
+
+.intro-project-title-text{
+    font-size: 34px;
+    font-family: 'Bungee-Regular', sans-serif;
+    color: #c65353;
+    text-shadow: 4px 4px #6d2a2a;
+
+}
+
+.contact-text{
+    font-size: 32px;
+    font-family: 'Bungee-Regular', sans-serif;
+    color: #c65353;
+}
+
+.address-text{
+    font-size: 32px;
+    font-family: 'Bungee-Regular', sans-serif;
+    color: #c65353;
+}
+
+.contact-text:hover{
+    text-shadow: 2px 2px #c65353;
+}
+
+.name-text{
+    font-size: 42px;
+    font-family: 'Bungee-Shade-Regular', sans-serif;
+    color: #c65353;
+}
+
+.code-text{
+    font-size: 400px;
+    font-family: 'Rubik-Medium', sans-serif;
+    color: #c65353;
+}
+
+.nav-text{
+    font-size: 16px;
+    font-family: 'Rubik-Medium', sans-serif;
+    color: #c65353;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.cur-page-text{
+    font-size: 16px;
+    font-family: 'Rubik-Medium', sans-serif;
+    color: #c65353;
+    margin-right: 1rem;
+}
+
+.navdrop-text{
+    font-size: 16px;
+    font-family: 'Rubik-Medium', sans-serif;
+    color: #c65353;
+}
+
+.navdrop-text:hover{
+    color: #2b2a2a;
+}
+
+.welcome-text{
+    font-size: 34px;
+    font-family: 'Bungee-Regular', sans-serif;
+    color: #c65353;
+    text-shadow: 4px 4px #6d2a2a;
+}
+
+.para-text{
+    font-size: 16px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: #b8a694;
+}
+
+.prompt-text{
+    font-size: 28px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: #b8a694;
+}
+
+.imt-text{
+    font-size: 15px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: #b8a694;
+}
+
+.label-text{
+    font-size: 20px;
+    font-family: 'Rubik-Medium', sans-serif;
+    color: #c65353;
+}
+
+.whatido-text{
+    font-size: 28px;
+    font-family: 'Bungee-Regular', sans-serif;
+    color: #c65353;
+    text-shadow: 2px 2px #6d2a2a;
+}
+
+.enterkey-link{
+    font-size: 18px;
+    color: rgba(255, 204, 102, 0.71);
+}
+
+.link-text{
+    font-size: 17px;
+    color: rgba(255, 204, 102, 0.71);
+}
+
+.tiny-text{
+    font-size: 12px;
+    color: #585454;
+}
+
+.skipbalance-text{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    cursor: default;
+}
+
+.loading-text{
+    font-size: 16px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: #eab37c;
+}
+
+.footer-text{
+    font-size: 18px;
+    color: #b8a694;
+}
+
+.personal-text{
+    font-size: 14px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: #b8a694;
+}
+
+.personallink-text{
+    font-size: 14px;
+    color: rgba(255, 204, 102, 0.71);
+}
+
+@media (max-width: 768px) {
+    .contact-text{
+        font-size: 20px;
+    }
+
+    .address-text{
+        font-size: 20px;
+    }
+
+    .welcome-text{
+        font-size: 21px;
+        font-family: 'Bungee-Regular', sans-serif;
+        color: #c65353;
+        text-shadow: 4px 4px #6d2a2a;
+    }
+
+    .name-text{
+        font-size: 21px;
+        font-family: 'Bungee-Shade-Regular', sans-serif;
+        color: #c65353
+    }
+
+    .project-title-text{
+        font-size: 20px;
+    }
+
+    .intro-project-title-text{
+        font-size: 20px;
+
+    }
+
+    .para-text{
+        font-size: 13.2px;
+    }
+
+    .imt-text{
+        font-size: 12px;
+    }
+
+    .prompt-text{
+        font-size: 18px;
+    }
+
+    .logo-text{
+        font-size: 14px;
+    }
+
+    .enterkey-link{
+        font-size: 15px;
+        text-shadow: 2px 2px #4c3f00;
+    }
+
+    .personal-text{
+        font-size: 12px;
+        font-family: 'Montserrat-Regular', sans-serif;
+        color: #b8a694;
+    }
+
+    .persoanllink-text{
+        font-size: 12px;
+        color: rgba(255, 204, 102, 0.71);
+    }
+
+    .link-text{
+        font-size: 13px;
+        text-shadow: 2px 2px #4c3f00;
+    }
+
+    .label-text{
+        font-size: 14px;
+    }
+
+    .tiny-text{
+        font-size: 10px;
+    }
+
+    .footer-text{
+        font-size: 14px;
+    }
+
+    .contact-touch-hint{
+        text-shadow: 2px 2px #4c0f00;
+    }
+}
