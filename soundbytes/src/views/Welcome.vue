@@ -1,7 +1,7 @@
 <template>
   <div class="welcome hero is-fullh has-background-black-ter">
     <div class="container center">
-      <p class="welcome-text">Hello Memelord</p>
+      <p class="welcome-text">Welcome to Pierre's Sounding Board</p>
     </div>
   </div>
 </template>

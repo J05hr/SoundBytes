@@ -4,9 +4,16 @@
 
 
 <script>
+import { reactive } from 'vue';
+import Settings from "@/objs/Settings";
+
 export default {
   name: "SoundBytes",
-  props: {},
+  setup() {
+    const state = reactive({
+      settings: Settings
+    })
+  }
 };
 </script>
 
