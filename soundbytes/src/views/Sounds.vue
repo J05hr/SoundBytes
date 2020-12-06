@@ -11,10 +11,14 @@
 
 <script>
 import Tabview from "@/components/TabView";
+import {useSettings} from "@/settings_store";
+
 export default {
   name: "Sounds",
   components: {Tabview},
-  props: {}
+  setup() {
+    return { state: useSettings() };
+  }
 };
 </script>
 

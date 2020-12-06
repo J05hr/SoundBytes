@@ -4,15 +4,12 @@
 
 
 <script>
-import { reactive } from 'vue';
-import Settings from "@/objs/Settings";
+import {useSettings} from "@/settings_store";
 
 export default {
   name: "SoundBytes",
   setup() {
-    const state = reactive({
-      settings: Settings
-    })
+    return { state: useSettings() };
   }
 };
 </script>
