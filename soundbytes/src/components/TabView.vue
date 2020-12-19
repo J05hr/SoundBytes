@@ -18,21 +18,21 @@
   </div>
   <div class="boards-container">
     <Arnold v-if="state.curType === 'Arnold'"/>
-    <COD v-if="state.curType === 'Arnold'"/>
-    <CS v-if="state.curType === 'Arnold'"/>
-    <DrPhil v-if="state.curType === 'Arnold'"/>
-    <Halo v-if="state.curType === 'Arnold'"/>
-    <Lines v-if="state.curType === 'Arnold'"/>
-    <Music v-if="state.curType === 'Arnold'"/>
-    <NSFW v-if="state.curType === 'Arnold'"/>
-    <Other v-if="state.curType === 'Arnold'"/>
-    <Overwatch v-if="state.curType === 'Arnold'"/>
-    <Pierre v-if="state.curType === 'Arnold'"/>
-    <SamuelLJackson v-if="state.curType === 'Arnold'"/>
-    <Skyrim v-if="state.curType === 'Arnold'"/>
-    <SoundEffects v-if="state.curType === 'Arnold'"/>
-    <Spongebob v-if="state.curType === 'Arnold'"/>
-    <Wrestling v-if="state.curType === 'Arnold'"/>
+    <COD v-if="state.curType === 'COD'"/>
+    <CS v-if="state.curType === 'CS'"/>
+    <DrPhil v-if="state.curType === 'Dr. Phil'"/>
+    <Halo v-if="state.curType === 'Halo'"/>
+    <Lines v-if="state.curType === 'Lines'"/>
+    <Music v-if="state.curType === 'Music'"/>
+    <NSFW v-if="state.curType === 'NSFW'"/>
+    <Other v-if="state.curType === 'Other'"/>
+    <Overwatch v-if="state.curType === 'Overwatch'"/>
+    <Pierre v-if="state.curType === 'Pierre'"/>
+    <SamuelLJackson v-if="state.curType === 'Samuel L. Jackson'"/>
+    <Skyrim v-if="state.curType === 'Skyrim'"/>
+    <SoundEffects v-if="state.curType === 'Sound Effects'"/>
+    <Spongebob v-if="state.curType === 'Spongebob'"/>
+    <Wrestling v-if="state.curType === 'Wrestling'"/>
   </div>
 </template>
 
