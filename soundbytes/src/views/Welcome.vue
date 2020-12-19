@@ -8,13 +8,9 @@
 
 
 <script>
-import { useSettings} from "@/settings_store";
 
 export default {
   name: "Welcome",
-  setup() {
-    return { state: useSettings() };
-  },
   mounted() {
     setTimeout(() => this.$router.push("Sounds"), 5000);
   }

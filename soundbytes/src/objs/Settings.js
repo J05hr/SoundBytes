@@ -1,10 +1,19 @@
 
 export default class Settings {
     constructor() {
-        this.catergories = {
-            Games: ["CS", "COD", "Overwatch", "Halo", "Skyrim"],
-            Characters: ["Arnold", "Pierre", "Spongebob", "Dr. Phil", "Samuel L. Jackson"],
-            Memes: ["Lines", "Sound Effects", "Music", "Wrestling", "NSFW", "Other"]
-        };
-    }
+        this.catergories = [
+            {
+                Name: "Games",
+                Types: ["CS", "COD", "Overwatch", "Halo", "Skyrim"]
+            },
+            {
+                Name: "Characters",
+                Types: ["Arnold", "Pierre", "Spongebob", "Dr. Phil", "Samuel L. Jackson"]
+            },
+            {
+                Name: "Memes",
+                Types: ["Lines", "Sound Effects", "Music", "Wrestling", "NSFW", "Other"]
+            }
+        ]
+    };
 }
