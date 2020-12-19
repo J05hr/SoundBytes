@@ -59,11 +59,12 @@ import Wrestling from "@/components/boards/Wrestling";
 
 export default {
   name: "tabview",
+
   components: {
-    Wrestling,
-    Spongebob,
-    SoundEffects,
-    Skyrim, SamuelLJackson, Pierre, Overwatch, Other, NSFW, Music, Lines, COD, CS, Halo, DrPhil, Arnold},
+    Wrestling, Spongebob, SoundEffects, Skyrim, SamuelLJackson, Pierre, Overwatch,
+    Other, NSFW, Music, Lines, COD, CS, Halo, DrPhil, Arnold
+  },
+
   setup() {
 
     const state = reactive({

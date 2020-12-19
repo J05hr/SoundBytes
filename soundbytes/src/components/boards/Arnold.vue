@@ -6,12 +6,19 @@
 
 <script>
 import {useSettings} from "@/settings_store";
+import {reactive} from "vue";
 
 export default {
   name: "Arnold",
+
   setup() {
-    return { state: useSettings() };
+    const state = reactive({
+      settings: useSettings(),
+    })
+
+    return { state };
   }
+
 }
 </script>
 
