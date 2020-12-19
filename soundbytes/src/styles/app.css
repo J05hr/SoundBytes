@@ -58,8 +58,35 @@
     margin:auto;
 }
 
+.select{
+    padding: 0.5rem;
+    margin: auto 1rem auto;
+    border-color: #00d1b2;
+}
+
+.select select:focus{
+    border-color: #00d1b2;
+}
+
+.select select{
+    font-size: 16px;
+    background-color: #31303b;
+    color: #849f96;
+}
+
 .tabs{
     padding: 0.5rem;
+    margin: auto;
+    font-size: 18px;
+}
+
+.tabs li.is-active a {
+    border-bottom-color: #000000;
+    color: #7763A9;
+    background-color: #1f1f1f;
+    border-radius: 2px;
+    border-bottom: 3px solid;
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 769px) {

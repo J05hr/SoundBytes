@@ -1,8 +1,8 @@
 <template>
-  <div class="tabs">
+  <div class="tabs center">
     <div class="select">
         <select id="catList" v-model="state.curTypes">
-          <option value="">Select Category</option>
+          <option value="">Category</option>
           <option v-for="obj of state.settings.settings.catergories" v-bind:key="obj.Name" :value="obj.Types" @click="updatecat(obj.Name)">
             {{ obj.Name }}
           </option>
