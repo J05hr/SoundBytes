@@ -1,6 +1,6 @@
 <template>
-  <div class="container welcome-text center">
-    <p class="center">Arnold, Under Construction</p>
+  <div class="welcome-text center">
+    Arnold, Under Construction
   </div>
 </template>
 

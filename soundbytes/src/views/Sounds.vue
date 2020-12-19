@@ -1,6 +1,6 @@
 <template>
   <div class="sounds hero is-fullh has-background-black-ter">
-    <div class="container center-column">
+    <div class="sounds-container center-column">
       <Tabview id="tv1"/>
       <Tabview id="tv2"/>
       <Tabview id="tv3"/>

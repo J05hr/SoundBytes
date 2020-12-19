@@ -16,7 +16,7 @@
       </li>
     </ul>
   </div>
-  <div class="boards-container">
+  <div class="boards-container center">
     <Arnold v-if="state.curType === 'Arnold'"/>
     <COD v-if="state.curType === 'COD'"/>
     <CS v-if="state.curType === 'CS'"/>
